@@ -5,7 +5,7 @@ app = FastAPI()
 
 def load_data():
     with open('patients.json', 'r') as f: 
-        data = await json.load(f)
+        data = json.load(f)
     return data
 
 
@@ -15,7 +15,7 @@ async def hello():
 
 
 @app.get('/about')
-async def about():
+async def about(): 
     return {'message': 'A functioning API for patients'}
 
 @app.get('/view')
@@ -42,7 +42,7 @@ example = 'By height or weight'), order: str = Query('asc', description = 'Sort 
     if order not in ['asc', 'desc']:
         raise HTTPException(status_code = 400, detail = f'Invalid, select either asc or desc')
 
-    data = await load_data()
+    data = load_data()
 
     sort_order = True if order == 'desc' else False
 
