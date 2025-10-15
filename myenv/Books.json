@@ -1,0 +1,50 @@
+[
+    {
+        "book_id": "P100",
+        "name": "Mockingbird how to kill",
+        "author": "string",
+        "year": 0,
+        "pages": 0,
+        "price": 0.0
+    },
+    {
+        "book_id": "A101",
+        "name": "Alice in wonderland",
+        "author": "Alice",
+        "year": 1949,
+        "pages": 328,
+        "price": 500
+    },
+    {
+        "book_id": "B102",
+        "name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "pages": 180,
+        "price": 400
+    },
+    {
+        "book_id": "R103",
+        "name": "The Alchemist",
+        "author": "Paulo Coelho",
+        "year": 1988,
+        "pages": 197,
+        "price": 350
+    },
+    {
+        "book_id": "104",
+        "name": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "year": 2011,
+        "pages": 443,
+        "price": 700
+    },
+    {
+        "book_id": "Y102",
+        "name": "My Diary",
+        "author": "Rushav Sthapit",
+        "year": 2050,
+        "pages": 150,
+        "price": 250
+    }
+]
